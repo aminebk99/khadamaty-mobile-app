@@ -11,6 +11,20 @@ const _layout = () => {
                     title: "home"
                 }}
             />
+            <Tabs.Screen
+                name='categories'
+                options={{
+                    headerShown: false,
+                    title: "categories"
+                }}
+            />
+            <Tabs.Screen
+                name='profile'
+                options={{
+                    headerShown: false,
+                    title: "profil"
+                }}
+            />
         </Tabs>
     )
 }
