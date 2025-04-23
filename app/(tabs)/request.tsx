@@ -3,8 +3,8 @@ import React from 'react'
 
 const request = () => {
     return (
-        <View>
-            <Text>request</Text>
+        <View className='flex-1 justify-center items-center'>
+            <Text >request</Text>
         </View>
     )
 }
