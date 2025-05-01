@@ -1,12 +1,14 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text, SafeAreaView } from "react-native";
+import React from "react";
 
 const categories = () => {
-    return (
-        <View>
-            <Text>categories</Text>
-        </View>
-    )
-}
+  return (
+    <SafeAreaView>
+      <View>
+        <Text>categories</Text>
+      </View>
+    </SafeAreaView>
+  );
+};
 
-export default categories
+export default categories;

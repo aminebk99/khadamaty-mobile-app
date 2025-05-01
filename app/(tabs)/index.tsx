@@ -1,17 +1,18 @@
-
 import { View } from "react-native";
 import SearchBar from "../components/SearchBar";
 import { SafeAreaView } from "react-native-safe-area-context";
-import ServicesCard from "../components/servicesCard";
 import Slide from "../components/Slide";
+import ServicesCard from "../components/ServicesCard";
 
 export default function Index() {
   return (
-    <SafeAreaView>
-      <SearchBar />
-      <Slide />
-      <View>
-        <ServicesCard />
+    <SafeAreaView className="bg-white h-full">
+      <View className="px-5">
+        <SearchBar />
+        <Slide />
+        <View>
+          <ServicesCard />
+        </View>
       </View>
     </SafeAreaView>
   );

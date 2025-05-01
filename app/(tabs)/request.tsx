@@ -1,12 +1,15 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text, SafeAreaView } from "react-native";
+import React from "react";
 
 const request = () => {
-    return (
-        <View className='flex-1 justify-center items-center'>
-            <Text >request</Text>
-        </View>
-    )
-}
+  return (
+    <SafeAreaView>
+      <View>
+        <Text className="text-black">request</Text>
+        
+      </View>
+    </SafeAreaView>
+  );
+};
 
-export default request
+export default request;
