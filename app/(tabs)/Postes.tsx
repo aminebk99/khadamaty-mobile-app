@@ -1,12 +1,14 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text, SafeAreaView } from "react-native";
+import React from "react";
 
 const Postes = () => {
   return (
-    <View>
-      <Text>Postes</Text>
-    </View>
-  )
-}
+    <SafeAreaView className="bg-white h-full">
+      <View>
+        <Text>Postes</Text>
+      </View>
+    </SafeAreaView>
+  );
+};
 
-export default Postes
+export default Postes;
